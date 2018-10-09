@@ -1,0 +1,11 @@
+framework module DIYFramework {
+  umbrella header "DIYFramework.h"
+
+  export *
+  module * { export * }
+}
+
+module DIYFramework.Swift {
+    header "DIYFramework-Swift.h"
+    requires objc
+}
